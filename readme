@@ -1,0 +1,24 @@
+#Description
+The script performs the following tasks:
+
+Loads and inspects the dataset (Netflix Data new.csv)
+
+Visualizes missing values using missingno
+
+Separates features and target variable
+
+Handles missing numeric values using mean imputation
+
+Encodes categorical features with OneHotEncoder
+
+Label-encodes the target variable
+
+Splits data into training and test sets
+
+Applies feature scaling to numerical data
+
+Visualizes trends like release year distribution, genre distribution, and feature correlations
+
+#Dependencies
+pip install pandas numpy matplotlib seaborn missingno scikit-learn
+
